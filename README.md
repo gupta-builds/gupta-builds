@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:130320,75:1e0842,100:0d1117&height=260&section=header&text=Anant%20Gupta&fontSize=72&fontWeight=700&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Building%20intelligence%20that%20acts.&descSize=20&descFontColor=a78bfa&descAlignY=62" alt="header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1e0a3c,65:4c1d95,100:0d1117&height=260&section=header&text=Anant%20Gupta&fontSize=72&fontWeight=700&fontColor=ffffff&fontFamily=Space+Grotesk&animation=fadeIn&fontAlignY=42&desc=Building%20intelligence%20that%20acts.&descSize=20&descFontColor=a78bfa&descAlignY=62" alt="header" width="100%"/>
 
 </div>
 
@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://anantgupta.dev/"><img src="https://img.shields.io/badge/anantgupta.dev-0d1117?style=flat-square&logo=safari&logoColor=a78bfa&color=0d1117"/></a>
   &nbsp;
-  <a href="mailto:anantmahi721@gmail.com"><img src="https://img.shields.io/badge/anantmahi721@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=a78bfa&color=0d1117"/></a>
+  <a href="mailto:gupt0479@umn.edu"><img src="https://img.shields.io/badge/anantmahi721@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=a78bfa&color=0d1117"/></a>
   &nbsp;
   <a href="https://github.com/gupta-builds"><img src="https://img.shields.io/badge/gupta--builds-0d1117?style=flat-square&logo=github&logoColor=a78bfa&color=0d1117"/></a>
 </p>
@@ -164,5 +164,5 @@ AI-native personal knowledge OS built on Obsidian. MCP integration, semantic sea
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:130320,75:1e0842,100:0d1117&height=130&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1e0a3c,65:4c1d95,100:0d1117&height=130&section=footer" width="100%"/>
 </div>
