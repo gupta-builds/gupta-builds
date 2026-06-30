@@ -29,15 +29,15 @@
 <table align="center">
 <tr>
 <td align="right" width="120"><b>building</b></td>
-<td><a href="https://github.com/gupta-builds/CausalOps"><b>CausalOps</b></a> — multi-agent causal intelligence for cyber operations</td>
+<td><a href="https://github.com/gupta-builds/CausalOps"><b>CausalOps</b></a> - multi-agent causal intelligence for cyber operations</td>
 </tr>
 <tr>
 <td align="right"><b>researching</b></td>
-<td><a href="https://github.com/gupta-builds/boom"><b>BOOM</b></a> — real-time astronomical alert broker · Prof. Michael Coughlin · ZTF</td>
+<td><a href="https://github.com/gupta-builds/boom"><b>BOOM</b></a> - real-time astronomical alert broker · Prof. Michael Coughlin · ZTF</td>
 </tr>
 <tr>
 <td align="right"><b>studying</b></td>
-<td>Computer Science @ University of Minnesota — Class of 2028</td>
+<td>Computer Science @ University of Minnesota - Class of 2028</td>
 </tr>
 <tr>
 <td align="right"><b>open to</b></td>
@@ -88,7 +88,7 @@
 
 #### [CausalOps](https://github.com/gupta-builds/CausalOps)
 
-Multi-agent causal intelligence for cyber operations. Agents decompose incidents, a statistical pipeline gates the evidence, and DoWhy estimates intervention impact. ATE is withheld when data is insufficient — the guardrail is the point.
+Multi-agent causal intelligence for cyber operations. Agents decompose incidents, a statistical pipeline gates the evidence, and DoWhy estimates intervention impact. ATE is withheld when data is insufficient - the guardrail is the point.
 
 `Python` `LangGraph` `DoWhy` `Azure OpenAI` `TypeScript`
 
@@ -97,7 +97,7 @@ Multi-agent causal intelligence for cyber operations. Agents decompose incidents
 
 #### [BOOM](https://github.com/gupta-builds/boom) &nbsp;[↗](https://boom-observability.vercel.app/)
 
-Real-time astronomical alert broker under Prof. Michael Coughlin. Ingests live ZTF sky-survey data through a Kafka → MongoDB pipeline, enriches and filters at scale — directly informing active astrophysics research at UMN.
+Real-time astronomical alert broker under Prof. Michael Coughlin. Ingests live ZTF sky-survey data through a Kafka → MongoDB pipeline, enriches and filters at scale - directly informing active astrophysics research at UMN.
 
 `Python` `Rust` `Kafka` `MongoDB`
 
