@@ -151,6 +151,8 @@ AI-native personal knowledge OS built on Obsidian. MCP integration, semantic sea
 
 <div align="center">
 
+<p align="center"><sub>2026 contributions</sub></p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/github-contribution-grid-snake.svg"/>
