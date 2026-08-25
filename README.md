@@ -6,13 +6,19 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=600&lines=CS+%40+University+of+Minnesota+—+'28;Research+Engineer+%40+BOOM+Lab+·+Prof.+Michael+Coughlin;Multi-agent+AI+·+Causal+Inference+·+Distributed+Systems;Systems+that+reason+before+they+act.)](https://git.io/typing-svg)
+<img src="assets/ascii-face.svg" alt="ascii portrait"/>
 
 </div>
 
 <br/>
 
-<p align="center"><code>AGI-ready systems &nbsp;·&nbsp; Self-Evolving Workflows &nbsp;·&nbsp; Digital Workforces &nbsp;·&nbsp; Full-stack Applications</code></p>
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=600&lines=CS+%40+University+of+Minnesota+—+'28;Research+Engineer+%40+BOOM+Lab+·+Prof.+Michael+Coughlin;Multi-agent+AI+·+Causal+Inference+·+Distributed+Systems;Systems+that+reason+before+they+act.)](https://git.io/typing-svg)
+
+</div>
+
+<br/>
 
 <p align="center">
   <a href="https://anantgupta.dev/"><img src="https://img.shields.io/badge/anantgupta.dev-0d1117?style=flat-square&logo=safari&logoColor=a78bfa&color=0d1117"/></a>
