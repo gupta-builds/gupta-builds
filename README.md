@@ -24,19 +24,17 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/activity-stats.svg" alt="contribution activity"/>
 
-<sub><a href="https://anantgupta.dev/">anantgupta.dev</a> · <a href="https://www.linkedin.com/in/anant-gupta-7373b4367">linkedin</a> · <a href="mailto:gupt0479@umn.edu">email</a></sub>
-
-</div>
-
-<br/>
-
 <p align="center">
   <a href="https://anantgupta.dev/"><img src="https://img.shields.io/badge/anantgupta.dev-0d1117?style=flat-square&logo=safari&logoColor=a78bfa&color=0d1117"/></a>
   &nbsp;
   <a href="mailto:gupt0479@umn.edu"><img src="https://img.shields.io/badge/gupt0479@umn.edu-0d1117?style=flat-square&logo=gmail&logoColor=a78bfa&color=0d1117"/></a>
   &nbsp;
   <a href="https://github.com/gupta-builds"><img src="https://img.shields.io/badge/gupta--builds-0d1117?style=flat-square&logo=github&logoColor=a78bfa&color=0d1117"/></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/anant-gupta-7373b4367"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=a78bfa&color=0d1117"/></a>
 </p>
+
+</div>
 
 <br/>
 
