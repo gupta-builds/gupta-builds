@@ -137,11 +137,7 @@ AI-native personal knowledge OS built on Obsidian. MCP integration, semantic sea
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=gupta-builds&bg_color=0d1117&color=a78bfa&line=6d28d9&point=a78bfa&area=true&area_color=1d0b4e&hide_border=true&radius=6&custom_title=Contribution%20Graph"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=gupta-builds&theme=github-dark-blue&hide_border=true&background=0D1117&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa&sideLabels=8b949e&dates=8b949e"/>
+<img width="100%" src="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/activity-stats.svg" alt="activity stats"/>
 
 </div>
 
