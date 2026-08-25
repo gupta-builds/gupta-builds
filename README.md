@@ -20,6 +20,16 @@
 
 <br/>
 
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/activity-stats.svg" alt="contribution activity"/>
+
+<sub><a href="https://anantgupta.dev/">anantgupta.dev</a> · <a href="https://www.linkedin.com/in/anant-gupta-7373b4367">linkedin</a> · <a href="mailto:gupt0479@umn.edu">email</a></sub>
+
+</div>
+
+<br/>
+
 <p align="center">
   <a href="https://anantgupta.dev/"><img src="https://img.shields.io/badge/anantgupta.dev-0d1117?style=flat-square&logo=safari&logoColor=a78bfa&color=0d1117"/></a>
   &nbsp;
@@ -134,18 +144,6 @@ AI-native personal knowledge OS built on Obsidian. MCP integration, semantic sea
 <br/>
 
 > Also shipped: [SafeReach](https://github.com/gupta-builds/safereach) &nbsp;·&nbsp; [Resq](https://github.com/gupta-builds/Resq) &nbsp;·&nbsp; [Arc](https://github.com/gupta-builds/Arc) &nbsp;·&nbsp; [TradingView](https://github.com/gupta-builds/TradingView) &nbsp;·&nbsp; [Portfolio](https://github.com/gupta-builds/Portfolio)
-
-<br/>
-
----
-
-### Activity
-
-<div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/activity-stats.svg" alt="activity stats"/>
-
-</div>
 
 <br/>
 
