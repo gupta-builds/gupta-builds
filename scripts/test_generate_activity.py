@@ -2,6 +2,7 @@ from generate_activity import (
     catmull_rom_path,
     catmull_rom_segments,
     compute_stats,
+    compute_streak_stats,
     path_length,
     smoothed,
 )
@@ -14,10 +15,15 @@ def demo():
         {"contributionDays": [{"date": "2026-01-03", "contributionCount": 5},
                                {"date": "2026-01-04", "contributionCount": 3}]},
     ]
-    active_days, best_week, sparkline = compute_stats(weeks)
+    active_days, best_streak, sparkline = compute_stats(weeks)
     assert active_days == 3
-    assert best_week == 8
+    assert best_streak == 2  # current streak (5,3) ties the longest, so it wins
     assert sparkline == [1, 0, 5, 3]
+
+    # frozen-peak case: current streak is shorter than the historical longest
+    frozen_days = [{"date": str(i), "contributionCount": c}
+                   for i, c in enumerate([5, 5, 5, 0, 0, 1, 0])]
+    assert compute_streak_stats(frozen_days) == 3
 
     assert smoothed([1, 0, 5, 3]) == [1.0, 0.5, 2.0, 2.25]
 

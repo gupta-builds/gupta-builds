@@ -2,8 +2,8 @@
 """Generate a self-hosted contribution stat card SVG.
 
 Fetches the contribution calendar via GitHub's GraphQL API and renders a
-single card: total contributions + a smooth sparkline on the left, active
-days / best week stacked on the right.
+single card: total contributions + a smooth sparkline spanning the full
+width, with active days / best streak stacked on the right.
 """
 import json
 import os
@@ -46,16 +46,33 @@ def fetch_calendar():
     return calendar["totalContributions"], calendar["weeks"]
 
 
+def compute_streak_stats(days):
+    counts = [d["contributionCount"] for d in days]
+    longest = cur_run = 0
+    for c in counts:
+        cur_run = cur_run + 1 if c > 0 else 0
+        longest = max(longest, cur_run)
+
+    idx = len(counts) - 1
+    if idx >= 0 and counts[idx] == 0:
+        idx -= 1  # today may not be over yet; don't count it as a break
+    current = 0
+    while idx >= 0 and counts[idx] > 0:
+        current += 1
+        idx -= 1
+
+    # an ongoing streak that has reached the historical best should read as
+    # the still-climbing current number, not a stale frozen peak
+    return current if current >= longest else longest
+
+
 def compute_stats(weeks):
     days = [d for w in weeks for d in w["contributionDays"]]
     days.sort(key=lambda d: d["date"])
     active_days = sum(1 for d in days if d["contributionCount"] > 0)
-    best_week = max(
-        (sum(d["contributionCount"] for d in w["contributionDays"]) for w in weeks),
-        default=0,
-    )
+    best_streak = compute_streak_stats(days)
     sparkline = [d["contributionCount"] for d in days]
-    return active_days, best_week, sparkline
+    return active_days, best_streak, sparkline
 
 
 def catmull_rom_segments(points):
@@ -150,45 +167,51 @@ def sparkline_svg(counts, x0, y0, w, h):
 FONT = '"JetBrains Mono", ui-monospace, monospace'
 
 
-def render(total, active_days, best_week, sparkline):
+def render(total, active_days, best_streak, sparkline):
     width, height = 760, 200
     pad = 32
 
-    top_band_bottom = 82  # baseline of the small label row + descender clearance
-    spark_gap = 18        # clearance between the label row and the sparkline's peak
-    spark_y0 = top_band_bottom + spark_gap
-
-    left_w = 460
-    spark = sparkline_svg(sparkline, pad, spark_y0, left_w - pad, height - pad - spark_y0)
+    total_num_y, total_label_y = 54, 76
+    left_block_bottom = total_label_y + 4  # descender clearance
 
     right_x = width - pad
-    best_x = right_x
-    active_x = right_x - 110
+    stat_line_gap = 15    # a group's number baseline -> its own label baseline
+    stat_group_gap = 24   # a group's label baseline -> the next group's number baseline
+    # (must clear both the label's descenders and the next number's cap-height)
+    active_num_y = 46
+    active_label_y = active_num_y + stat_line_gap
+    best_num_y = active_label_y + stat_group_gap
+    best_label_y = best_num_y + stat_line_gap
+    right_block_bottom = best_label_y + 4
+
+    spark_gap = 14  # clearance between the taller text block and the sparkline's peak
+    spark_y0 = max(left_block_bottom, right_block_bottom) + spark_gap
+    spark = sparkline_svg(sparkline, pad, spark_y0, width - 2 * pad, height - pad - spark_y0)
 
     return f"""<svg xmlns='http://www.w3.org/2000/svg' width='{width}' height='{height}' viewBox='0 0 {width} {height}'>
-  <text x='{pad}' y='54' font-family='{FONT}' font-weight='700'
+  <text x='{pad}' y='{total_num_y}' font-family='{FONT}' font-weight='700'
         font-size='34px' fill='#e6e6e6'>{total:,}</text>
-  <text x='{pad}' y='76' font-family='{FONT}' font-weight='400'
+  <text x='{pad}' y='{total_label_y}' font-family='{FONT}' font-weight='400'
         font-size='13px' fill='#8b949e'>Contributions in the last year</text>
 
   {spark}
 
-  <text x='{active_x}' y='54' text-anchor='end' font-family='{FONT}'
-        font-weight='700' font-size='22px' fill='#e6e6e6'>{active_days}</text>
-  <text x='{active_x}' y='76' text-anchor='end' font-family='{FONT}'
-        font-weight='400' font-size='12px' fill='#a78bfa'>Active days</text>
+  <text x='{right_x}' y='{active_num_y}' text-anchor='end' font-family='{FONT}'
+        font-weight='700' font-size='20px' fill='#e6e6e6'>{active_days}</text>
+  <text x='{right_x}' y='{active_label_y}' text-anchor='end' font-family='{FONT}'
+        font-weight='400' font-size='11px' fill='#a78bfa'>Active days</text>
 
-  <text x='{best_x}' y='54' text-anchor='end' font-family='{FONT}'
-        font-weight='700' font-size='22px' fill='#e6e6e6'>{best_week}</text>
-  <text x='{best_x}' y='76' text-anchor='end' font-family='{FONT}'
-        font-weight='400' font-size='12px' fill='#a78bfa'>Best week</text>
+  <text x='{right_x}' y='{best_num_y}' text-anchor='end' font-family='{FONT}'
+        font-weight='700' font-size='20px' fill='#e6e6e6'>{best_streak}</text>
+  <text x='{right_x}' y='{best_label_y}' text-anchor='end' font-family='{FONT}'
+        font-weight='400' font-size='11px' fill='#a78bfa'>Best Streak</text>
 </svg>"""
 
 
 def main():
     total, weeks = fetch_calendar()
-    active_days, best_week, sparkline = compute_stats(weeks)
-    svg = render(total, active_days, best_week, sparkline)
+    active_days, best_streak, sparkline = compute_stats(weeks)
+    svg = render(total, active_days, best_streak, sparkline)
     out_dir = sys.argv[1] if len(sys.argv) > 1 else "dist"
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "activity-stats.svg"), "w") as f:

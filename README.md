@@ -16,12 +16,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=600&lines=CS+%40+University+of+Minnesota+—+'28;Research+Engineer+%40+BOOM+Lab+·+Prof.+Michael+Coughlin;Multi-agent+AI+·+Causal+Inference+·+Distributed+Systems;Systems+that+reason+before+they+act.)](https://git.io/typing-svg)
 
-</div>
-
-<br/>
-
-<div align="center">
-
 <img width="100%" src="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/activity-stats.svg" alt="contribution activity"/>
 
 <p align="center">
@@ -31,7 +25,7 @@
   &nbsp;
   <a href="https://github.com/gupta-builds"><img src="https://img.shields.io/badge/gupta--builds-0d1117?style=flat-square&logo=github&logoColor=a78bfa&color=0d1117"/></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/anant-gupta-7373b4367"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=a78bfa&color=0d1117"/></a>
+  <a href="https://www.linkedin.com/in/anant-gupta-7373b4367"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBmaWxsPSIjYTc4YmZhIiBkPSJNNDE2IDMySDMxLjlDMTQuMyAzMiAwIDQ2LjUgMCA2NC4zdjM4My40QzAgNDY1LjUgMTQuMyA0ODAgMzEuOSA0ODBINDE2YzE3LjYgMCAzMi0xNC40IDMyLTMyLjNWNjQuM0M0NDggNDYuNSA0MzMuNiAzMiA0MTYgMzJ6TTEzNS40IDQxNkg2OVYyMDIuMmg2Ni41VjQxNnpNMTAyLjIgMTczYy0yMS4zIDAtMzguNS0xNy4zLTM4LjUtMzguNVM4MC45IDk2IDEwMi4yIDk2YzIxLjIgMCAzOC41IDE3LjMgMzguNSAzOC41IDAgMjEuMy0xNy4yIDM4LjUtMzguNSAzOC41ek00MTYgNDE2aC02Ni40VjMxMmMwLTI0LjgtLjUtNTYuNy0zNC41LTU2LjctMzQuNiAwLTM5LjkgMjctMzkuOSA1NC45VjQxNmgtNjYuNFYyMDIuMmg2My43djI5LjJoLjljOC45LTE2LjggMzAuNi0zNC41IDYyLjktMzQuNSA2Ny4yIDAgNzkuNyA0NC4zIDc5LjcgMTAxLjlWNDE2eiIvPjwvc3ZnPg==&color=0d1117"/></a>
 </p>
 
 </div>
