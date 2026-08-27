@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1e0a3c,65:4c1d95,100:0d1117&height=260&section=header&text=Anant%20Gupta&fontSize=72&fontWeight=700&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Building%20intelligence%20that%20acts.&descSize=20&descFontColor=a78bfa&descAlignY=62" alt="header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1e0a3c,65:4c1d95,100:0d1117&height=260&section=header&text=Anant%20Gupta&fontSize=40&fontWeight=700&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Building%20intelligence%20that%20acts.&descSize=14&descFontColor=a78bfa&descAlignY=62" alt="header" width="100%"/>
 
 </div>
 
@@ -30,8 +30,6 @@
 
 </div>
 
-<br/>
-
 ---
 
 <table align="center">
@@ -56,35 +54,6 @@
 <td>Minneapolis, MN</td>
 </tr>
 </table>
-
-<br/>
-
----
-
-### Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,ts,rust&theme=dark" alt="languages"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,docker,supabase,mongo,kafka&theme=dark" alt="infrastructure"/>
-
-<br/><br/>
-
-![LangGraph](https://img.shields.io/badge/LangGraph-0d1117?style=flat-square&logo=langchain&logoColor=a78bfa)
-![Anthropic Claude](https://img.shields.io/badge/Anthropic%20Claude-0d1117?style=flat-square&logo=anthropic&logoColor=a78bfa)
-![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0d1117?style=flat-square&logo=microsoftazure&logoColor=a78bfa)
-![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=flat-square&logo=openai&logoColor=a78bfa)
-![LangChain](https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=a78bfa)
-![DoWhy](https://img.shields.io/badge/DoWhy-0d1117?style=flat-square&logo=python&logoColor=a78bfa)
-![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-0d1117?style=flat-square&logo=anthropic&logoColor=a78bfa)
-![Vector Search](https://img.shields.io/badge/Vector%20Search-0d1117?style=flat-square&logo=elasticsearch&logoColor=a78bfa)
-
-</div>
-
-<br/>
 
 ---
 
@@ -137,13 +106,11 @@ AI-native personal knowledge OS built on Obsidian. MCP integration, semantic sea
 
 > Also shipped: [SafeReach](https://github.com/gupta-builds/safereach) &nbsp;·&nbsp; [Resq](https://github.com/gupta-builds/Resq) &nbsp;·&nbsp; [Arc](https://github.com/gupta-builds/Arc) &nbsp;·&nbsp; [TradingView](https://github.com/gupta-builds/TradingView) &nbsp;·&nbsp; [Portfolio](https://github.com/gupta-builds/Portfolio)
 
-<br/>
-
 ---
 
 <div align="center">
 
-<h4 align="center">contribution trail</h4>
+<h4 align="center">Contribution Trail for Breakfast</h4>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/github-contribution-grid-snake-dark.svg"/>
@@ -153,9 +120,30 @@ AI-native personal knowledge OS built on Obsidian. MCP integration, semantic sea
 
 </div>
 
+---
+
+### Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,ts,rust&theme=dark" alt="languages"/>
+
 <br/>
 
----
+<img src="https://skillicons.dev/icons?i=nextjs,react,docker,supabase,mongo,kafka&theme=dark" alt="infrastructure"/>
+
+<br/>
+
+![LangGraph](https://img.shields.io/badge/LangGraph-0d1117?style=flat-square&logo=langchain&logoColor=a78bfa)
+![Anthropic Claude](https://img.shields.io/badge/Anthropic%20Claude-0d1117?style=flat-square&logo=anthropic&logoColor=a78bfa)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0d1117?style=flat-square&logo=microsoftazure&logoColor=a78bfa)
+![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=flat-square&logo=openai&logoColor=a78bfa)
+![LangChain](https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=a78bfa)
+![DoWhy](https://img.shields.io/badge/DoWhy-0d1117?style=flat-square&logo=python&logoColor=a78bfa)
+![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-0d1117?style=flat-square&logo=anthropic&logoColor=a78bfa)
+![Vector Search](https://img.shields.io/badge/Vector%20Search-0d1117?style=flat-square&logo=elasticsearch&logoColor=a78bfa)
+
+</div>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1e0a3c,65:4c1d95,100:0d1117&height=130&section=footer" width="100%"/>
