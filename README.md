@@ -96,6 +96,8 @@ AI-native personal knowledge OS built on Obsidian. MCP integration, semantic sea
 
 > Also shipped: [SafeReach](https://github.com/gupta-builds/safereach) &nbsp;·&nbsp; [Resq](https://github.com/gupta-builds/Resq) &nbsp;·&nbsp; [Arc](https://github.com/gupta-builds/Arc) &nbsp;·&nbsp; [TradingView](https://github.com/gupta-builds/TradingView) &nbsp;·&nbsp; [Portfolio](https://github.com/gupta-builds/Portfolio)
 
+---
+
 <div align="center">
 
 <h4 align="center">Contribution Trail for Breakfast</h4>
