@@ -1,20 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1e0a3c,65:4c1d95,100:0d1117&height=260&section=header&text=Anant%20Gupta&fontSize=40&fontWeight=700&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Building%20intelligence%20that%20acts.&descSize=14&descFontColor=a78bfa&descAlignY=62" alt="header" width="100%"/>
-
-</div>
-
-<div align="center">
-
-<img src="assets/ascii-face.svg" alt="ascii portrait"/>
-
-</div>
+<img src="assets/ascii-face.svg" alt="ascii portrait" width="600"/>
 
 <br/>
 
-<div align="center">
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=600&lines=CS+%40+University+of+Minnesota+—+'28;Research+Engineer+%40+BOOM+Lab+·+Prof.+Michael+Coughlin;Multi-agent+AI+·+Causal+Inference+·+Distributed+Systems;Systems+that+reason+before+they+act.)](https://git.io/typing-svg)
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=1&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=600&height=40&lines=Building+intelligence+that+matters." alt="Building intelligence that matters."/>
 
 <img width="100%" src="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/activity-stats.svg" alt="contribution activity"/>
 
@@ -30,27 +22,25 @@
 
 </div>
 
----
-
 <table align="center">
 <tr>
-<td align="right" width="120"><b>building</b></td>
+<td align="right" width="120"><b>Building</b></td>
 <td><a href="https://github.com/gupta-builds/CausalOps"><b>CausalOps</b></a> - multi-agent causal intelligence for cyber operations</td>
 </tr>
 <tr>
-<td align="right"><b>researching</b></td>
+<td align="right"><b>Researching</b></td>
 <td><a href="https://github.com/gupta-builds/boom"><b>BOOM</b></a> - real-time astronomical alert broker · Prof. Michael Coughlin · ZTF</td>
 </tr>
 <tr>
-<td align="right"><b>studying</b></td>
+<td align="right"><b>Studying</b></td>
 <td>Computer Science @ University of Minnesota - Class of 2028</td>
 </tr>
 <tr>
-<td align="right"><b>open to</b></td>
+<td align="right"><b>Open to</b></td>
 <td>SWE · AI engineering internships · Summer 2027</td>
 </tr>
 <tr>
-<td align="right"><b>based in</b></td>
+<td align="right"><b>Based in</b></td>
 <td>Minneapolis, MN</td>
 </tr>
 </table>
@@ -128,16 +118,16 @@ AI-native personal knowledge OS built on Obsidian. MCP integration, semantic sea
 
 <img src="https://skillicons.dev/icons?i=python,ts,rust&theme=dark" alt="languages"/>
 
-<br/>
+<br/><br/>
 
 <img src="https://skillicons.dev/icons?i=nextjs,react,docker,supabase,mongo,kafka&theme=dark" alt="infrastructure"/>
 
-<br/>
+<br/><br/>
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-0d1117?style=flat-square&logo=langchain&logoColor=a78bfa)
 ![Anthropic Claude](https://img.shields.io/badge/Anthropic%20Claude-0d1117?style=flat-square&logo=anthropic&logoColor=a78bfa)
-![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0d1117?style=flat-square&logo=microsoftazure&logoColor=a78bfa)
-![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=flat-square&logo=openai&logoColor=a78bfa)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2E3OGJmYSIgZD0iTTEzLjA1IDQuMjRMNi41NiAxOC4wNUwyIDE4bDUuMDktOC43NnptLjcgMS4wOUwyMiAxOS43Nkg2Ljc0bDkuMy0xLjY2bC00Ljg3LTUuNzl6Ii8+PC9zdmc+&color=0d1117"/>
+![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2E3OGJmYSIgZD0iTTIwLjU2MiAxMC4xODhjLjI1LS42ODguMzEzLTEuMzc2LjI1LTIuMDYzYy0uMDYyLS42ODctLjMxMi0xLjM3NS0uNjI1LTJjLS41NjItLjkzNy0xLjM3NS0xLjY4Ny0yLjMxMi0yLjEyNWMtMS0uNDM3LTIuMDYzLS41NjItMy4xMjUtLjMxMmMtLjUtLjUtMS4wNjMtLjkzOC0xLjY4OC0xLjI1UzExLjY4NyAyIDExIDJhNS4xNyA1LjE3IDAgMCAwLTMgLjkzOGMtLjg3NS42MjQtMS41IDEuNS0xLjgxMyAyLjVjLS43NS4xODctMS4zNzUuNS0yIC44NzVjLS41NjIuNDM3LTEgMS0xLjM3NSAxLjU2MmMtLjU2Mi45MzgtLjc1IDItLjYyNSAzLjA2M2E1LjQ0IDUuNDQgMCAwIDAgMS4yNSAyLjg3NGE0LjcgNC43IDAgMCAwLS4yNSAyLjA2M2MuMDYzLjY4OC4zMTMgMS4zNzUuNjI1IDJjLjU2My45MzggMS4zNzUgMS42ODggMi4zMTMgMi4xMjVjMSAuNDM4IDIuMDYyLjU2MyAzLjEyNS4zMTNjLjUuNSAxLjA2Mi45MzcgMS42ODcgMS4yNVMxMi4zMTIgMjIgMTMgMjJhNS4xNyA1LjE3IDAgMCAwIDMtLjkzN2MuODc1LS42MjUgMS41LTEuNSAxLjgxMi0yLjVhNC41NCA0LjU0IDAgMCAwIDEuOTM4LS44NzVjLjU2Mi0uNDM4IDEuMDYyLS45MzggMS4zNzUtMS41NjNjLjU2Mi0uOTM3Ljc1LTIgLjYyNS0zLjA2MmMtLjEyNS0xLjA2My0uNS0yLjA2My0xLjE4OC0yLjg3Nm0tNy41IDEwLjVjLTEgMC0xLjc1LS4zMTMtMi40MzctLjg3NWMwIDAgLjA2Mi0uMDYzLjEyNS0uMDYzbDQtMi4zMTJhLjUuNSAwIDAgMCAuMjUtLjI1YS41Ny41NyAwIDAgMCAuMDYyLS4zMTNWMTEuMjVsMS42ODggMXY0LjYyNWEzLjY4NSAzLjY4NSAwIDAgMS0zLjY4OCAzLjgxM001IDE3LjI1Yy0uNDM4LS43NS0uNjI1LTEuNjI1LS40MzgtMi41YzAgMCAuMDYzLjA2My4xMjUuMDYzbDQgMi4zMTJhLjU2LjU2IDAgMCAwIC4zMTMuMDYzYy4xMjUgMCAuMjUgMCAuMzEyLS4wNjNsNC44NzUtMi44MTJ2MS45MzdsLTQuMDYyIDIuMzc1QTMuNyAzLjcgMCAwIDEgNy4zMTIgMTljLTEtLjI1LTEuODEyLS44NzUtMi4zMTItMS43NU0zLjkzNyA4LjU2M2EzLjggMy44IDAgMCAxIDEuOTM4LTEuNjI2djQuNzUxYzAgLjEyNCAwIC4yNS4wNjIuMzEyYS41LjUgMCAwIDAgLjI1LjI1bDQuODc1IDIuODEzbC0xLjY4NyAxbC00LTIuMzEzYTMuNyAzLjcgMCAwIDEtMS43NS0yLjI1Yy0uMjUtLjkzNy0uMTg4LTIuMDYyLjMxMi0yLjkzN00xNy43NSAxMS43NWwtNC44NzUtMi44MTJsMS42ODctMWw0IDIuMzEyYy42MjUuMzc1IDEuMTI1Ljg3NSAxLjQzOCAxLjVzLjUgMS4zMTMuNDM3IDIuMDYzYTMuNyAzLjcgMCAwIDEtLjc1IDEuOTM3Yy0uNDM3LjU2My0xIDEtMS42ODcgMS4yNXYtNC43NWMwLS4xMjUgMC0uMjUtLjA2My0uMzEyYzAgMC0uMDYyLS4xMjYtLjE4Ny0uMTg4bTEuNjg3LTIuNXMtLjA2Mi0uMDYyLS4xMjUtLjA2MmwtNC0yLjMxM2MtLjEyNS0uMDYyLS4xODctLjA2Mi0uMzEyLS4wNjJzLS4yNSAwLS4zMTMuMDYyTDkuODEyIDkuNjg4VjcuNzVsNC4wNjMtMi4zNzVjLjYyNS0uMzc1IDEuMzEyLS41IDIuMDYyLS41Yy42ODggMCAxLjM3NS4yNSAyIC42ODhjLjU2My40MzcgMS4wNjMgMSAxLjMxMyAxLjYyNXMuMzEyIDEuMzc1LjE4NyAyLjA2Mm0tMTAuNSAzLjVsLTEuNjg3LTFWNy4wNjNjMC0uNjg4LjE4Ny0xLjQzOC41NjItMkM4LjE4NyA0LjQzOCA4Ljc1IDQgOS4zNzUgMy42ODhhMy4zNyAzLjM3IDAgMCAxIDIuMDYyLS4zMTNjLjY4OC4wNjMgMS4zNzUuMzc1IDEuOTM4LjgxM2MwIDAtLjA2My4wNjItLjEyNS4wNjJsLTQgMi4zMTNhLjUuNSAwIDAgMC0uMjUuMjVjLS4wNjMuMTI1LS4wNjMuMTg3LS4wNjMuMzEyem0uODc1LTJMMTIgOS41bDIuMTg3IDEuMjV2Mi41TDEyIDE0LjVsLTIuMTg4LTEuMjV6Ii8+PC9zdmc+&color=0d1117"/>
 ![LangChain](https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=a78bfa)
 ![DoWhy](https://img.shields.io/badge/DoWhy-0d1117?style=flat-square&logo=python&logoColor=a78bfa)
 ![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-0d1117?style=flat-square&logo=anthropic&logoColor=a78bfa)
