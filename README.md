@@ -6,8 +6,8 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=680&lines=CS+%40+University+of+Minnesota+—+'28;Research+Engineer+%40+BOOM+Lab+·+Prof.+Michael+Coughlin;Multi-agent+AI+·+Causal+Inference+·+Distributed+Systems;Systems+that+reason+before+they+act.)](https://git.io/typing-svg)
 <br/>
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=12&duration=1&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=680&height=28&lines=Building+intelligence+that+matters." alt="Building intelligence that matters."/>
-
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=1&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=680&height=32&lines=Building+intelligence+that+matters." alt="Building intelligence that matters."/>
+<br/>
 <img width="100%" src="https://raw.githubusercontent.com/gupta-builds/gupta-builds/output/activity-stats.svg" alt="contribution activity"/>
 
 <p align="center">
@@ -95,8 +95,6 @@ AI-native personal knowledge OS built on Obsidian. MCP integration, semantic sea
 <br/>
 
 > Also shipped: [SafeReach](https://github.com/gupta-builds/safereach) &nbsp;·&nbsp; [Resq](https://github.com/gupta-builds/Resq) &nbsp;·&nbsp; [Arc](https://github.com/gupta-builds/Arc) &nbsp;·&nbsp; [TradingView](https://github.com/gupta-builds/TradingView) &nbsp;·&nbsp; [Portfolio](https://github.com/gupta-builds/Portfolio)
-
----
 
 <div align="center">
 
